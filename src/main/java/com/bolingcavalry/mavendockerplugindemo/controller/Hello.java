@@ -11,6 +11,6 @@ public class Hello {
     @RequestMapping("/")
     public String sayHello(){
     	//修改返回的字符串的内容
-        return "Hello,My Name is jenkins, " + new Date();
+        return "Hello,Welcome jenkins, " + new Date();
     }
 }
